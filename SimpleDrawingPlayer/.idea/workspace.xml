@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c62b728-8f9a-4739-ab64-e62db05649b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1378959328">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JAVA/" value="1" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/DrawingEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ui/tools/DeleteTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/tools/MoveTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/tools/Tool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Drawing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-16" />
+    <option name="width" value="1950" />
+    <option name="height" value="1110" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimpleDrawingPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDrawingPlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDrawingPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDrawingPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDrawingPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDrawingPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDrawingPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDrawingPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDrawingPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDrawingPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDrawingPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDrawingPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546888787144" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../intro-to-softconst-practice-projects/FitLifeGym" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DrawingEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.DrawingEditor" />
+      <module name="SimpleDrawingPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DrawingEditor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c62b728-8f9a-4739-ab64-e62db05649b2" name="Default Changelist" comment="" />
+      <created>1546886004024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546886004024</updated>
+      <workItem from="1546886005950" duration="2752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2752000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10344828" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="150.56249999999997" y="273.86783854166663">ui.DrawingEditor.DrawingMouseListener</node>
+            <node x="393.21762224517903" y="551.8678385416666">players</node>
+            <node x="39.99999999999997" y="15.867838541666629">sound</node>
+            <node x="370.5625" y="273.86783854166663">ui.tools</node>
+            <node x="169.81181129476585" y="452.86783854166663">ui.DrawingEditor</node>
+            <node x="355.59944042699715" y="144.86783854166663">model</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="players" target="model">
+              <point x="0.0" y="-14.5" />
+              <point x="451.21762224517903" y="511.86783854166663" />
+              <point x="486.0625" y="511.86783854166663" />
+              <point x="486.0625" y="243.86783854166663" />
+              <point x="442.91762224517896" y="243.86783854166663" />
+              <point x="30.818181818181813" y="14.5" />
+            </edge>
+            <edge source="ui.tools" target="players">
+              <point x="46.666666666666686" y="14.5" />
+              <point x="469.72916666666663" y="432.86783854166663" />
+              <point x="449.7509555785124" y="432.86783854166663" />
+              <point x="449.7509555785124" y="501.86783854166663" />
+              <point x="428.017622245179" y="501.86783854166663" />
+              <point x="-23.200000000000045" y="-14.5" />
+            </edge>
+            <edge source="ui.tools" target="ui.tools">
+              <point x="-46.66666666666666" y="14.5" />
+              <point x="376.3958333333333" y="322.86783854166663" />
+              <point x="350.5625" y="322.86783854166663" />
+              <point x="350.5625" y="295.61783854166663" />
+              <point x="-52.5" y="7.25" />
+            </edge>
+            <edge source="ui.DrawingEditor" target="ui.DrawingEditor.DrawingMouseListener">
+              <point x="-11.53125" y="-14.5" />
+              <point x="219.78056129476585" y="372.86783854166663" />
+              <point x="171.81249999999997" y="372.86783854166663" />
+              <point x="-63.75" y="14.5" />
+            </edge>
+            <edge source="players" target="ui.DrawingEditor">
+              <point x="-46.400000000000034" y="-14.5" />
+              <point x="404.817622245179" y="531.8678385416666" />
+              <point x="231.31181129476585" y="531.8678385416666" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ui.tools" target="ui.DrawingEditor">
+              <point x="23.333333333333314" y="14.5" />
+              <point x="446.39583333333326" y="412.86783854166663" />
+              <point x="281.28056129476585" y="412.86783854166663" />
+              <point x="49.96875" y="-14.5" />
+            </edge>
+            <edge source="ui.tools" target="model">
+              <point x="35.0" y="-14.5" />
+              <point x="458.0625" y="253.86783854166663" />
+              <point x="432.6448949724517" y="253.86783854166663" />
+              <point x="20.54545454545456" y="14.5" />
+            </edge>
+            <edge source="ui.DrawingEditor" target="model">
+              <point x="-34.59375" y="-14.5" />
+              <point x="196.71806129476585" y="402.86783854166663" />
+              <point x="124.68749999999997" y="402.86783854166663" />
+              <point x="124.68749999999997" y="223.86783854166663" />
+              <point x="381.28125860881534" y="223.86783854166663" />
+              <point x="-30.818181818181813" y="14.5" />
+            </edge>
+            <edge source="model" target="sound">
+              <point x="28.25" y="-14.5" />
+              <point x="440.34944042699715" y="114.86783854166663" />
+              <point x="144.99999999999997" y="114.86783854166663" />
+              <point x="49.0" y="14.5" />
+            </edge>
+            <edge source="model" target="model">
+              <point x="-51.363636363636374" y="14.5" />
+              <point x="360.7358040633608" y="193.86783854166663" />
+              <point x="335.59944042699715" y="193.86783854166663" />
+              <point x="335.59944042699715" y="166.61783854166663" />
+              <point x="-56.5" y="7.25" />
+            </edge>
+            <edge source="ui.DrawingEditor" target="sound">
+              <point x="-49.96875" y="-14.5" />
+              <point x="181.34306129476585" y="422.86783854166663" />
+              <point x="86.66762224517902" y="422.86783854166663" />
+              <point x="86.66762224517902" y="114.86783854166663" />
+              <point x="102.99999999999997" y="114.86783854166663" />
+              <point x="7.0" y="14.5" />
+            </edge>
+            <edge source="ui.DrawingEditor" target="ui.tools">
+              <point x="34.59375" y="-14.5" />
+              <point x="265.90556129476585" y="392.86783854166663" />
+              <point x="423.0625" y="392.86783854166663" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="sound" target="sound">
+              <point x="-35.0" y="14.5" />
+              <point x="60.99999999999997" y="74.86783854166663" />
+              <point x="10.0" y="74.86783854166663" />
+              <point x="10.0" y="30.36783854166663" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="ui.DrawingEditor.DrawingMouseListener" target="ui.DrawingEditor">
+              <point x="63.75" y="14.5" />
+              <point x="299.3125" y="362.86783854166663" />
+              <point x="242.84306129476585" y="362.86783854166663" />
+              <point x="11.53125" y="-14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2229208924949289" x="43.88302537172336" y="176.25145131862666" />
+          <SelectedNodes>
+            <node>sound</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>Project Files</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/DrawingEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/tools/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/tools/MoveTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/tools/DeleteTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
