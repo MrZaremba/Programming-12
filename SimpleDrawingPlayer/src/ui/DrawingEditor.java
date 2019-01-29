@@ -156,8 +156,8 @@ public class DrawingEditor extends JFrame {
         ShapeTool rectTool = new ShapeTool(this, toolArea);
         tools.add(rectTool);
 
-        MoveTool moveTool = new MoveTool(this, toolArea);
-        tools.add(moveTool);
+        SlideTool slideTool = new SlideTool(this, toolArea);
+        tools.add(slideTool);
 
         ResizeTool resizeTool = new ResizeTool(this, toolArea);
         tools.add(resizeTool);

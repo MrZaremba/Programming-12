@@ -9,12 +9,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 
-public class MoveTool extends Tool {
+public class SlideTool extends Tool {
 
 	private Shape shapeToMove;
 	private Point start;
 
-    public MoveTool(DrawingEditor editor, JComponent parent) {
+    public SlideTool(DrawingEditor editor, JComponent parent) {
 		super(editor, parent);
 		shapeToMove = null;
 		start = null;
@@ -77,7 +77,7 @@ public class MoveTool extends Tool {
 		//          called by the framework when the tool is clicked
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			editor.setActiveTool(MoveTool.this);
+			editor.setActiveTool(SlideTool.this);
 		}
 	}
 
