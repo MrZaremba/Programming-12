@@ -23,13 +23,13 @@ public class ShowMember implements Initializable {
         private final SimpleStringProperty name;
         private final SimpleStringProperty id;
         private final SimpleStringProperty email;
-        private final SimpleStringProperty nickName;
+        private final SimpleStringProperty nick;
 
         Member(String name, String id, String email, String nickName){
             this.name = new SimpleStringProperty(name);
             this.id = new SimpleStringProperty((id));
             this.email = new SimpleStringProperty(email);
-            this.nickName = new SimpleStringProperty(nickName);
+            this.nick = new SimpleStringProperty(nickName);
         }
 
         public String getName() {
@@ -42,7 +42,7 @@ public class ShowMember implements Initializable {
             return email.get();
         }
         public String getnickName() {
-            return nickName.get();
+            return nick.get();
         }
     }
     public ObservableList<Member> members = FXCollections.observableArrayList();
@@ -68,7 +68,7 @@ public class ShowMember implements Initializable {
             String name = rs.getString("name");
             String id = rs.getString("id");
             String email = rs.getString("email");
-            String nick = rs.getString("nickname".toUpperCase());
+            String nick = rs.getString("nickname");
 
             members.add(new Member(name,id,email,nick));
         }
@@ -79,6 +79,6 @@ public class ShowMember implements Initializable {
         nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
         idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
         emailCol.setCellValueFactory(new PropertyValueFactory<>("email"));
-        nickCol.setCellValueFactory(new PropertyValueFactory<>("nickName"));
+        nickCol.setCellValueFactory(new PropertyValueFactory<>("nick"));
     }
 }

@@ -34,7 +34,7 @@ public class DatabaseHandler {
                         + "id varchar(200) primary key,\n"
                         + "name varchar (200),\n"
                         + "email varchar (200),\n"
-                        + "nickName varchar (200))";
+                        + "nickname varchar (200))";
                 System.out.println(statement);
                 stmt.execute(statement);
             }
