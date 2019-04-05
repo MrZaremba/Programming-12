@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.sql.*;
 
 public class DatabaseHandler {
+    private static DatabaseHandler handler = null;
 
     private static final String DB_url = "jdbc:derby:database/forum;create=true";
     private static Connection conn = null;
@@ -14,6 +15,12 @@ public class DatabaseHandler {
         createMemberTable();
     }
 
+    public static DatabaseHandler getInstance() throws SQLException {
+        if(handler == null){
+            handler = new DatabaseHandler();
+        }
+        return handler;
+    }
     private void createMemberTable() {
         String TABLE_NAME = "MEMBER";
         try {

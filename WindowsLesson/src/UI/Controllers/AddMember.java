@@ -6,7 +6,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 
+import javax.xml.crypto.Data;
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class AddMember implements Initializable {
@@ -18,7 +20,11 @@ public class AddMember implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        handler = new DatabaseHandler();
+        try {
+            handler = DatabaseHandler.getInstance();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     public void addMember(ActionEvent actionEvent) {

@@ -5,6 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -14,6 +16,9 @@ import java.util.ResourceBundle;
 
 public class MainWindow implements Initializable {
 
+
+    public ListView<String> listview = new ListView<>();
+    public TextField messageText;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -38,5 +43,15 @@ public class MainWindow implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void showMemberWindow(ActionEvent actionEvent) {
+        loadWindow("../Layouts/showMembers.fxml", "Add Member");
+    }
+
+    public void addMessage(ActionEvent actionEvent) {
+        String message = messageText.getText();
+        listview.getItems().add(message);
+        messageText.clear();
     }
 }
