@@ -41,7 +41,7 @@ public class ShowMember implements Initializable {
         public String getEmail() {
             return email.get();
         }
-        public String getnickName() {
+        public String getNick() {
             return nick.get();
         }
     }
