@@ -13,10 +13,11 @@ public class ComputeStuff {
      *      If selection invalid returns null.
      */
     public static List<Integer> hailstoneSequence(int n) {
-        if(n < 1){
-            return null;
-        }
         List<Integer> list = new ArrayList<>();
+        if(n < 1){
+            list.add(-1);
+            return list;
+        }
         list.add(n);
         while (n != 1) {
             if(n%2 == 0){

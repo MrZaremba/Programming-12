@@ -64,7 +64,9 @@ public class ComputeStuffTest {
     //Test case 0
     @Test
     public void hailStoneZero(){
-        assertEquals(ComputeStuff.hailstoneSequence(0), null);
+        List<Integer> expected = new ArrayList<>();
+        expected.add(-1);
+        assertThat(ComputeStuff.hailstoneSequence(0), is(expected));
     }
 
     //Test Case 1
@@ -77,6 +79,8 @@ public class ComputeStuffTest {
     //Test Case negative
     @Test
     public void hailStoneNegative(){
-        assertEquals(ComputeStuff.hailstoneSequence(-1), null);
+        List<Integer> expected = new ArrayList<>();
+        expected.add(-1);
+        assertThat(ComputeStuff.hailstoneSequence(-1), is(expected));
     }
 }
