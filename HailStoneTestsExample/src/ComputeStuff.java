@@ -7,7 +7,7 @@ public class ComputeStuff {
     /**
      *Compute Hailstone Sequence.
      * See http://en.wikipedia.org/wiki/Collatz_conjecture#Statement_of_the_problem
-     * @param n starting number of sequence; requires n > 0.
+     * @param n starting number of sequence; requires n &lt; 0.
      * @return the hailestone sequence starting at n and ending with 1.
      *      For example, hailstone(3) = [3,10,5,16,8,4,2,1].
      *      If selection invalid returns -1.

@@ -7,20 +7,21 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
+/**
+ Testing Strategy
+
+ Partition inputs as follows:
+ 0, 1, 12, -1, 7
+
+ Include 0 and negative numbers to ensure returns null
+ One even (12) and one Odd(7) start point
+ */
 
 public class ComputeStuffTest {
-
-    /*
-    Testing Strategy
-
-    Partition inputs as follows:
-    0, 1, 12, -1, 7
-
-    Include 0 and negative numbers to ensure returns null
-    One even (12) and one Odd(7) start point
+    /**
+     * Tests a postive even number (12)
      */
 
-    //Test case 12, even
     @Test
     public void hailstoneSequenceEven() {
         List<Integer> expected = new ArrayList<>();
@@ -37,7 +38,9 @@ public class ComputeStuffTest {
         assertThat(ComputeStuff.hailstoneSequence(12), is(expected));
     }
 
-    //covers test 7 odd
+    /**
+     * Tests and odd positive number (7)
+     */
     @Test
     public void hailstoneSequenceOdd(){
         List<Integer> expected = new ArrayList<>();
@@ -61,7 +64,9 @@ public class ComputeStuffTest {
         assertThat(ComputeStuff.hailstoneSequence(7), is(expected));
     }
 
-    //Test case 0
+    /**
+     * Tests if n = 0
+     */
     @Test
     public void hailStoneZero(){
         List<Integer> expected = new ArrayList<>();
@@ -69,14 +74,19 @@ public class ComputeStuffTest {
         assertThat(ComputeStuff.hailstoneSequence(0), is(expected));
     }
 
-    //Test Case 1
+    /**
+     * Tests if n = 1
+     */
     @Test
     public void hailStoneOne(){
         List<Integer> expected = new ArrayList<>();
         expected.add(1);
         assertThat(ComputeStuff.hailstoneSequence(1),is(expected));
     }
-    //Test Case negative
+
+    /**
+     * Tests if n &lt; 1
+     */
     @Test
     public void hailStoneNegative(){
         List<Integer> expected = new ArrayList<>();
