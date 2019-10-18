@@ -10,7 +10,7 @@ public class ComputeStuff {
      * @param n starting number of sequence; requires n > 0.
      * @return the hailestone sequence starting at n and ending with 1.
      *      For example, hailstone(3) = [3,10,5,16,8,4,2,1].
-     *      If selection invalid returns null.
+     *      If selection invalid returns -1.
      */
     public static List<Integer> hailstoneSequence(int n) {
         List<Integer> list = new ArrayList<>();
