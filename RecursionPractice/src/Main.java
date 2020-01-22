@@ -6,6 +6,30 @@ import java.util.Scanner;
 public class Main {
     static ArrayList<Node> nodes = new ArrayList<>();
 
+    public static Node getNode(int n){
+        for(Node node : nodes){
+            if(node.id == n){
+                return node;
+            }
+        }
+        return null;
+    }
+
+    public static void getLeafNodes(Node n){
+        if(n.left == 0 & n.right == 0){
+            System.out.println(n);
+        }
+        else{
+            if(n.left != 0){
+                getLeafNodes(getNode(n.left));
+
+            }
+            if(n.right != 0) {
+                getLeafNodes(getNode(n.right));
+            }
+        }
+    }
+
     public static void setup() throws FileNotFoundException {
         Scanner scan = new Scanner(new File("Tree.txt"));
         while(scan.hasNextLine()){
@@ -18,6 +42,6 @@ public class Main {
     }
     public static void main(String[] args) throws FileNotFoundException {
        setup();
-
+       getLeafNodes(nodes.get(0));
     }
 }

@@ -8,4 +8,25 @@ public class Node {
         this.left = left;
         this.right = right;
     }
+
+    @Override
+    public int hashCode() {
+        return Integer.toString(id).hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Node){
+            Node other = (Node)obj;
+            if(other.id == this.id){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "" + id;
+    }
 }
