@@ -16,18 +16,7 @@ public class Main {
     }
 
     public static void getLeafNodes(Node n){
-        if(n.left == 0 & n.right == 0){
-            System.out.println(n);
-        }
-        else{
-            if(n.left != 0){
-                getLeafNodes(getNode(n.left));
 
-            }
-            if(n.right != 0) {
-                getLeafNodes(getNode(n.right));
-            }
-        }
     }
 
     public static void setup() throws FileNotFoundException {
